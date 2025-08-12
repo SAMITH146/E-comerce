@@ -20,14 +20,13 @@
     flex-wrap: wrap;
     margin: 10px;
     justify-content: center;
-
+    align-items: center;
 }
 
 
 .products__item {
     align-items: center;
     margin: 10px;
-    vertical-align: top;
 }
 
 .product-card {
