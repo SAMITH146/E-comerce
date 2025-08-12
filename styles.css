@@ -5,28 +5,33 @@
 }
 
 .header {
+    display: flex;
+    justify-content: center;
     background-color: #4a148c;
     color: #fff;
     padding: 1rem;
-    text-align: center;
 }
 
 .header__title {
     font-size: 2rem;
 }
 .products {
-    padding: 20px;
-    text-align: center;
+    display: flex; 
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+
 }
 
 
 .products__item {
-    display: inline-block; 
-    vertical-align: top;
+    align-items: center;
     margin: 10px;
+    vertical-align: top;
 }
 
 .product-card {
+    align-items: center;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 10px;
